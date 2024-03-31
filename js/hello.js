@@ -1,3 +1,6 @@
-let a = "Hello World"
+function helloWorld(){
+  let a = "Hello World"
+  console.log(a)
+}
 
-console.log(a)
+helloWorld()
