@@ -19,6 +19,15 @@ def subtract_array(array: List[float], number:int):
     """
     return [i-number for i in array]
 
+def multiply_array(array: List[float], number:int):
+    """
+        Add a number to each element in the array
+        @param array a list of numbers
+        @param number a number to multiply
+        
+        @return an array
+    """
+    return [i*number for i in array]
 
 if __name__ == "__main__":
 
@@ -26,4 +35,6 @@ if __name__ == "__main__":
     b = add_array(array=a, number=10)
     print(b)
     b = subtract_array(array=a, number=5)
+    print(b)
+    b = multiply_array(array=a, number=5)
     print(b)
