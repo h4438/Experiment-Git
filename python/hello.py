@@ -1,3 +1,9 @@
+def sayHi(user):
+    print("Hello "+user)
+
+def sayBye(user):
+    print("Bye bye "+user)
+
 if __name__ == '__main__':
-    a = "Yolo"
-    print("Hello World "+a)
+    sayHi("Hieu")
+    sayBye("Tai")
